@@ -1,7 +1,0 @@
-brumminho,badumm;0
-quit,f;0
-hui,bu;0
-quit,f;0
-try,that;0
-again,this;0
-b,f;0
