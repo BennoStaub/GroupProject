@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <stdlib.h>
 using namespace std;
 
 int main() {
@@ -22,7 +23,11 @@ int main() {
 
 	srand(time(0));
 	string input = "hi";
-	int iter = 0;
+	int iter = rand();
+
+	 srand(time(NULL));
+	 string list [3][5] = rand (); "dog";
+
 	while(input != "quit"){
 		iter = rand();
 		cout << list[1][iter%5];
