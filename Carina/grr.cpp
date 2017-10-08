@@ -20,9 +20,11 @@ int main() {
 	cin.ignore();
 	cout << "translate" << endl;
 
+	srand(time(0));
 	string input = "hi";
 	int iter = 0;
 	while(input != "quit"){
+		iter = rand();
 		cout << list[1][iter%5];
 		getline(cin, input);
 		if(input == "quit"){
@@ -33,7 +35,6 @@ int main() {
 		}else{
 			cout << "no bitch" << endl;
 		}
-		iter++;
 	}
 	return 0;
 
